@@ -59,6 +59,7 @@ const TimelineContainer = styled.div`
   height: calc(100vh - 240px);
   overflow-y: auto;
   padding-right: 10px;
+  font-family: Inter;
 `;
 
 const TimelineItem = styled.div`
@@ -119,7 +120,7 @@ const CompleteButton = styled.button`
   gap: 5px;
   font-weight: bold;
   transition: all 0.2s ease;
-  
+  font-family: Inter;
   &:hover {
     background: #4a3d70;
     transform: translateY(-2px);
@@ -194,7 +195,7 @@ const RemoveButton = styled.button`
   cursor: pointer;
   font-size: 12px;
   transition: all 0.2s ease;
-  
+  font-family: Inter;
   &:hover {
     background: rgba(230, 57, 70, 0.2);
     transform: translateY(-2px);

@@ -12,7 +12,7 @@ const AnimatedRoutes = () => {
   return (
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
-        <Route path="/login" element={
+        <Route path="/" element={
           <PageTransition>
             <LoginPage />
           </PageTransition>
